@@ -5,7 +5,7 @@ import Divider from '@material-ui/core/Divider';
 import TodoItem from './TodoItem';
 import { TodosContext } from './contexts/todos.context';
 
-export default function TodoList() {
+function TodoList() {
   const todos = useContext(TodosContext);
 
   if (todos.length)
@@ -23,3 +23,5 @@ export default function TodoList() {
     );
   return null;
 }
+
+export default TodoList;
