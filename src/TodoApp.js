@@ -28,7 +28,7 @@ export default function TodoApp() {
         <Grid item xs={11} md={8} lg={4}>
           <TodosProvider>
             <TodoForm />
-            <TodoList></TodoList>
+            <TodoList />
           </TodosProvider>
         </Grid>
       </Grid>
